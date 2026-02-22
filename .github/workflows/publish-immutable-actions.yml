@@ -6,7 +6,7 @@ on:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: linux64amd-intel
     permissions:
       contents: read
       id-token: write
@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v4
       - name: Publish
         id: publish
-        uses: actions/publish-immutable-action@0.0.3
+        uses: actions/publish-immutable-action@1.0.0.
