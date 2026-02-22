@@ -1,8 +1,5 @@
-name: NodeJS with Webpack
+env:file:///
 
-on:
-  push:
-    branches: 
-  pull_request:
-    paths:
-      - 
+  
+
+
